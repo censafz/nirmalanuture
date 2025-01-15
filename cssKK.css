@@ -531,4 +531,9 @@ footer img {
         position: static;
         margin-top: 20px;
     }
+  .footer{
+    background-image: url(elemen/Screenshot\ 2025-01-15\ 130912.png); 
+    padding: 10px 0;
+    display: block;
+}
 }
