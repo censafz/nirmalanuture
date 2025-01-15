@@ -107,7 +107,7 @@ section{
 }
 .h3{
     font-family: "Oswald";
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 /* beranda start */
@@ -118,7 +118,7 @@ section{
 }
 .konten-beranda{
     align-items: center;
-    padding: 100px 20px;
+    padding: 20px 20px;
     max-width: 80%;
 }
 /* beranda end */
@@ -417,6 +417,18 @@ footer img {
         flex-direction: column;
         transition: 0.5s ease;
     }
+    .konten-beranda{
+        align-items: center;
+        padding: 100px 20px;
+        max-width: auto;
+    }
+    .h1{
+        font-family: "Oswald";
+        color: var(--second-bg-color);
+        font-size: 6rem;
+        font-weight: 800;
+        line-height: 1.3;
+    }
     .elemen > :nth-child(2){
         margin-top:20% ;
     }
@@ -523,11 +535,35 @@ footer img {
     .menu-berita :hover{
         color:#859F3D;
     }
-    .menu-berita{
+    .konten-berita1 .menu-berita{
         position: static;
         margin-top: 20px;
     }
     .konten-berita2 .menu-berita{
+        position: static;
+        margin-top: 20px;
+    }
+    .konten-berita3 .menu-berita{
+        position: static;
+        margin-top: 20px;
+    }
+    .konten-berita4 .menu-berita{
+        position: static;
+        margin-top: 20px;
+    }
+    .konten-berita5 .menu-berita{
+        position: static;
+        margin-top: 20px;
+    }
+    .konten-berita6 .menu-berita{
+        position: static;
+        margin-top: 20px;
+    }
+    .konten-berita7 .menu-berita{
+        position: static;
+        margin-top: 20px;
+    }
+    .konten-berita8 .menu-berita{
         position: static;
         margin-top: 20px;
     }
@@ -538,4 +574,5 @@ footer img {
         align-items: center;
         flex-direction: column;
     }
+
 }
